@@ -1,5 +1,5 @@
 :root {
-    --size: 450px;
+    --size: 400px;
 }
 
 * {
@@ -10,6 +10,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -20,9 +21,16 @@ body {
     flex-flow: row wrap;
     width: var(--size);
     height: var(--size);
+    /* overflow: hidden; */
+    /* box-shadow: 0 0 0 20px black; */
+    outline: solid 10px black;
 }
 .square {
     width: calc(var(--size) / 16);
     height: calc(var(--size) / 16);
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+input {
+    margin: 4em;
 }

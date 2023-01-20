@@ -10,7 +10,9 @@
     <body>
         <div class="controls">
             <div class="control-item">
-                <label for="slider" class="slider-label">50</label>
+                <label for="slider" class="slider-label"
+                    >Grid Size : <span class="grid-size"></span
+                ></label>
                 <input
                     type="range"
                     name="slider"
@@ -19,6 +21,10 @@
                     value="50"
                     class="slider"
                 />
+            </div>
+            <div>
+                <label for="show-border">show borders</label>
+                <input type="checkbox" name="show-border" class="show-border" />
             </div>
         </div>
         <div class="container"></div>

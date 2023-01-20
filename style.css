@@ -23,3 +23,7 @@ body {
 .controls {
     text-align: center;
 }
+
+.show-border {
+    border: 0.5px solid black;
+}
